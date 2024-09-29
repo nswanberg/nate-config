@@ -1,4 +1,3 @@
-
 # PATH Settings
 export PATH="$PATH:/Users/nate/flutter/bin"
 export PATH="$PATH:/Users/nate/go/bin"
@@ -26,4 +25,8 @@ setopt HIST_IGNORE_SPACE               # Ignore commands that start with a space
 # Ensure no command echoes history unexpectedly
 precmd() { fc -R; }
 
-# End of .zshrc
+# From https://github.com/geohot/configuration
+eval "$(/opt/homebrew/bin/brew shellenv)"
+export CLICOLOR=1
+export PS1=$'%n@%m:\e[0;36m%~\e[0m$ '
+export EDITOR='vim'
