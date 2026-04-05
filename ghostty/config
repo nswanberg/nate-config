@@ -1,0 +1,4 @@
+keybind = global:ctrl+shift+space=toggle_quick_terminal
+quick-terminal-animation-duration = 0.1
+theme = tufte
+keybind = shift+enter=text:\n
